@@ -1,4 +1,4 @@
-FROM golang:1.25
+FROM registry.cn-hangzhou.aliyuncs.com/google-containers/golang:1.25
 
 RUN apt-get update && apt-get install -y \
     git make bash curl ca-certificates \
